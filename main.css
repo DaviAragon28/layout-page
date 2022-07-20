@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: red;
+    height: 100%;
+}
+
+header {
+   background-color: #ccc;
+   padding: 10px;
+}
+
+
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    transition: all .5s;
+}
+
+li:hover {
+    transform: rotate(180deg);
+    transition: all 1s;
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+main {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-between;
+    height: 92vh;
+    text-align: center;
+}
+
+.left {
+    background-color: aqua;
+    width: 35%; 
+}   
+
+.right {
+    width: 65%;
+    background-color: green;
+}
+
+footer {
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    height: 100%;
+}
